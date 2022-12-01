@@ -62,8 +62,6 @@ class jeu_lettres(tk.Tk):
         self.title("J'apprends à reconnaître les lettres")
         self.attributes('-toolwindow', True)
         self.attributes('-fullscreen', True)
-        print(self.winfo_screenheight())
-        print(self.winfo_screenwidth())
         self.main = Main(self)
         self.game = Game(self)
         self.start()
